@@ -1,4 +1,4 @@
-
+import actors
 
 def main():
     print_header()
@@ -13,6 +13,15 @@ def print_header():
 
 
 def game_loop():
+
+    creatures = [
+
+    ]
+
+    hero = actors.Wizard()
+
+
+
 
     while True:
 
