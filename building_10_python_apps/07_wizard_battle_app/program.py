@@ -1,4 +1,5 @@
-import actors
+from actors import Wizard, Creatures
+
 
 def main():
     print_header()
@@ -15,10 +16,14 @@ def print_header():
 def game_loop():
 
     creatures = [
-
+        Creatures('Toad', 1),
+        Creatures('Tiger', 12),
+        Creatures('Bat', 3),
+        Creatures('Dragon', 50),
+        Creatures('Evil Wizard', 1000)
     ]
 
-    hero = actors.Wizard()
+    hero = Wizard('Mike', 1000)
 
 
 
